@@ -1,7 +1,7 @@
 FROM lscr.io/linuxserver/docker-compose:alpine
 
 RUN apk add --no-cache \
-    git
+    git ssh
 
 WORKDIR /git
 RUN git config --global --add safe.directory /git
