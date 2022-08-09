@@ -1,4 +1,4 @@
-FROM docker/compose:1.24.0
+FROM lscr.io/linuxserver/docker-compose:alpine
 
 RUN apk add --no-cache \
     git
