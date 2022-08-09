@@ -1,5 +1,6 @@
 FROM lscr.io/linuxserver/docker-compose:alpine
 
+RUN apk update
 RUN apk add --no-cache \
     git ssh
 
